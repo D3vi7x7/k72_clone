@@ -21,7 +21,7 @@ const Agency = () => {
                 end: "bottom -120%",
                 scrub: 1.2,
                 pin:true,
-                markers:true
+                markers:false
             },
             ease:"power1.inOut"
         })
@@ -45,7 +45,7 @@ const Agency = () => {
             end: "50% 10%",
             scrub: 3,
             pin:true,
-            markers:true
+            markers:false
           },
           ease: "power1.inOut"
         })
@@ -57,7 +57,7 @@ const Agency = () => {
             start: "top 10%",
             end: "50% 10%",
             scrub: 3,
-            markers:true
+            markers:false
           }
         })
         gsap.from(".lft",{
@@ -68,13 +68,13 @@ const Agency = () => {
             start: "top 10%",
             end: "50% 10%",
             scrub: 3,
-            markers:true
+            markers:false
           }
         })
     })
 
   return (
-    <div className='agency sm:h-[5000px] h-[4100px]'>
+    <div className='agency sm:h-[5000px] h-[4250px]'>
       <div className='md:text-6xl text-3xl absolute left-3 top-3'>
         <h1>K72</h1>
       </div>
@@ -133,7 +133,7 @@ const Agency = () => {
       </div>
       <div className="goal lg:text-xl
       sm:text-[20px] absolute sm:top-[250%] top-[213%] lg:left-24 
-      sm:px-5 sm:flex flex flex-col gap-10 px-5 
+      sm:px-5 sm:flex gap-10 px-5 
       lg:gap-10 sm:gap-5">
         <h1>Our Work Born in curiosity, raised by dedication <br /> 
         and fed with a steady diet of creativity.</h1>
@@ -146,7 +146,7 @@ const Agency = () => {
       </div>
       <div className="founders absolute sm:top-[280%] top-[250%] w-full">
         <div className='hero_img absolute lg:left-[35%]
-        sm:left-[25%] left-[9%] sm:w-[500px] sm:h-[700px]
+        sm:left-[25%] left-[13%] sm:w-[500px] sm:h-[700px]
         w-[300px] h-[350px]
         bg-lime-500 rounded-3xl overflow-hidden'>
           <div className='front'>
@@ -156,19 +156,19 @@ const Agency = () => {
         </div>
         <div className='foundertxt absolute font-black 
         z-100 text-lime-500 lg:text-[180px] flex gap-30 lg:left-70
-        sm:text-[90px] text-[34px] sm:top-150 top-100 sm:left-27 left-1'>
+        sm:text-[90px] text-[34px] sm:top-150 top-100 sm:left-27 left-6'>
             <h1 className='lft'>THE</h1>
             <h1 className='rt'>FOUNDERS</h1>
         </div>
       </div>
-      <div className="roles w-full absolute top-[330%] flex flex-col">
+      <div className="roles w-full absolute top-[330%] sm:top-[430%] flex flex-col">
         <div className='group'>
           <div className='bg-lime-500 absolute w-full h-0 group-hover:h-[67px]
           transition-all duration-500 ease-in-out'></div>
           <div className='flex relative z-20 text-white justify-between items-center 
           px-5 border-y-2 py-3 '>
             <h1 className='text-2xl'>Business Lead</h1>
-            <h1 className='text-4xl font-black'>CARL GODBOUT</h1>
+            <h1 className='sm:text-4xl text-2xl font-black'>CARL GODBOUT</h1>
           </div>
           <div className='flex overflow-hidden absolute z-30
              h-[500px] -top-20 lg:left-150 sm:left-70 rounded-3xl'>
@@ -182,7 +182,7 @@ const Agency = () => {
           <div className='flex relative z-20 text-white justify-between items-center 
           px-5 border-b-2 py-3 '>
             <h1 className='text-2xl'>Branding Lead</h1>
-            <h1 className='text-4xl font-black'>CAMILLE MIERE</h1>
+            <h1 className='sm:text-4xl text-2xl font-black'>CAMILLE MIERE</h1>
           </div>
           <div className='flex overflow-hidden absolute z-30
              h-[500px] -top-20 lg:left-150 sm:left-70 rounded-3xl'>
@@ -196,7 +196,7 @@ const Agency = () => {
           <div className='flex relative z-20 text-white justify-between items-center 
           px-5 border-b-2 py-3 '>
             <h1 className='text-2xl'>Design Lead</h1>
-            <h1 className='text-4xl font-black'>ARNOUD DOYON</h1>
+            <h1 className='sm:text-4xl text-2xl font-black'>ARNOUD DOYON</h1>
           </div>
           <div className='flex overflow-hidden absolute z-30
              h-[500px] -top-20 lg:left-150 sm:left-70 rounded-3xl'>
@@ -210,7 +210,7 @@ const Agency = () => {
           <div className='flex relative z-20 text-white justify-between items-center 
           px-5 border-b-2 py-3 '>
             <h1 className='text-2xl'>Content Lead</h1>
-            <h1 className='text-4xl font-black'>MEGGIE LAVOUIE</h1>
+            <h1 className='sm:text-4xl text-2xl font-black'>MEGGIE LAVOUIE</h1>
           </div>
           <div className='flex overflow-hidden absolute z-30
              h-[500px] -top-20 lg:left-150 sm:left-70 rounded-3xl'>
@@ -224,7 +224,7 @@ const Agency = () => {
           <div className='flex relative z-20 text-white justify-between items-center 
           px-5 border-b-2 py-3 '>
             <h1 className='text-2xl'>Finance Head</h1>
-            <h1 className='text-4xl font-black'>CATHERINE Max</h1>
+            <h1 className='sm:text-4xl text-2xl font-black'>CATHERINE Max</h1>
           </div>
           <div className='flex overflow-hidden absolute z-30
              h-[500px] -top-20 lg:left-150 sm:left-70 rounded-3xl'>
@@ -238,7 +238,7 @@ const Agency = () => {
           <div className='flex relative z-20 text-white justify-between items-center 
           px-5 border-b-2 py-3 '>
             <h1 className='text-2xl'>Relationship Head</h1>
-            <h1 className='text-4xl font-black'>Violet Smith</h1>
+            <h1 className='sm:text-4xl text-2xl font-black'>Violet Smith</h1>
           </div>
           <div className='flex overflow-hidden absolute z-30
              h-[500px] -top-20 lg:left-150 sm:left-70 rounded-3xl'>
@@ -247,11 +247,11 @@ const Agency = () => {
           </div>
         </div>
       </div>
-      <div className='footer w-full absolute bottom-0 top-[420%] pt-40 sm:flex flex
-      flex-col sm:gap-0 gap-20 sm:pl-0 pl-10 sm:justify-between'>
+      <div className='footer w-full absolute bottom-0 sm:top-[490%] top-[400%] pt-40 sm:flex
+      sm:gap-0 gap-20 sm:pl-0 pl-10 items-center sm:justify-between'>
         <h1 className='text-white font-black sm:text-[370px] text-[170px] 
         leading-0'>K72</h1>
-        <div className='relative'>
+        <div className='relative sm:pt-0 pt-30'>
           <h1 className='text-3xl hover:cursor-pointer'
           onClick={() => navigate('/works')}><u>See all works..</u></h1>
           <img className='w-[300px] h-[200px] pr-5' src="/w1.jpg" alt="" />

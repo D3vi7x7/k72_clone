@@ -55,7 +55,7 @@ const Works = () => {
                 start: "25% 10%",
                 end: "55% 10%",
                 scrub: 2,
-                markers: true,
+                markers: false,
             }
         }).from(".work5",{
             height: "0px",
@@ -64,7 +64,7 @@ const Works = () => {
                 start: "40% 10%",
                 end: "70% 10%",
                 scrub: 2,
-                markers: true,
+                markers: false,
             }
         })
     }, [])
